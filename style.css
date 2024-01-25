@@ -1,0 +1,23 @@
+.NavigationBar {
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.NavigationBar a {
+    float: left;
+    color: #1f1c3f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.NavigationBar a:hover {
+    background-color: #3c3d50;
+    color: #f6f0f0
+}
+
+.NavigationBar a.HomePage {
+    background-color: #1da756;
+    /* color: #0d120e */
+}
