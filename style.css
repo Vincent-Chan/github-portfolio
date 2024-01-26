@@ -1,3 +1,11 @@
+/* Make the scroll effect is smooth */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar */
+
 .NavigationBar {
     background-color: #eee;
     overflow: hidden;
