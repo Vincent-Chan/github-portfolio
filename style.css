@@ -1,5 +1,9 @@
 /* Make the scroll effect is smooth */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     scroll-behavior: smooth;
 }
