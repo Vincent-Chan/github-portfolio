@@ -13,6 +13,7 @@ body {
 .NavigationBar {
     background-color: #eee;
     overflow: hidden;
+
 }
 
 .NavigationBar a {
@@ -30,7 +31,7 @@ body {
 }
 
 .NavigationBar a.HomePage {
-    background-color: #1da756;
+    background-color: #6c707d;
     /* color: #0d120e */
 }
 

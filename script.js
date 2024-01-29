@@ -1,4 +1,20 @@
-configObj = {"buttonD":"M8 17.333h5.333v4C13.333 22.806 14.527 24 16 24c1.473 0 2.667-1.194 2.667-2.667v-4H24L16 8l-8 9.333z","buttonT":"translate(-1088 -172) translate(832 140) translate(32 32) translate(224)","shadowSize":"0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)","roundnessSize":"999px","buttonDToBottom":"24px","buttonDToRight":"24px","selectedBackgroundColor":"#0aff81","selectedIconColor":"#15334c","buttonWidth":"48px","buttonHeight":"48px","svgWidth":"40px","svgHeight":"40px"};function createButton(obj, pageSimulator) {    
+configObj = {
+    "buttonD":"M8 17.333h5.333v4C13.333 22.806 14.527 24 16 24c1.473 0 2.667-1.194 2.667-2.667v-4H24L16 8l-8 9.333z",
+    "buttonT":"translate(-1088 -172) translate(832 140) translate(32 32) translate(224)",
+    "shadowSize":"0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "roundnessSize":"999px",
+    "buttonDToBottom":"24px",
+    "buttonDToRight":"24px",
+    "selectedBackgroundColor":"#6c707d",
+    "selectedIconColor":"#24293e",
+    "buttonWidth":"48px",
+    "buttonHeight":"48px",
+    "svgWidth":"40px",
+    "svgHeight":"40px"
+};
+
+function createButton(obj, pageSimulator) {    
+    
     const body = document.querySelector("body");    
     backToTopButton = document.createElement("span");    
     backToTopButton.classList.add("softr-back-to-top-button");    
