@@ -1,12 +1,14 @@
+/* Set the font style as Nanum Gothic */
 /* Make the scroll effect is smooth */
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 body {
     scroll-behavior: smooth;
-    padding-top: 150px
+    padding-top: 135px
 }
 
 /* Navigation bar */
