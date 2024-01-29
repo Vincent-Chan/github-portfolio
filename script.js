@@ -1,3 +1,5 @@
+/* Back to top button */
+
 configObj = {
     "buttonD":"M8 17.333h5.333v4C13.333 22.806 14.527 24 16 24c1.473 0 2.667-1.194 2.667-2.667v-4H24L16 8l-8 9.333z",
     "buttonT":"translate(-1088 -172) translate(832 140) translate(32 32) translate(224)",
@@ -66,3 +68,5 @@ function createButton(obj, pageSimulator) {
 };
 
 document.addEventListener("DOMContentLoaded", function() { createButton(configObj, null); });
+
+

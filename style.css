@@ -6,6 +6,7 @@ html {
 
 body {
     scroll-behavior: smooth;
+    padding-top: 150px
 }
 
 /* Navigation bar */
@@ -13,10 +14,17 @@ body {
 .NavigationBar {
     background-color: #eee;
     overflow: hidden;
-
+    width: 100%;
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+    transition: top 0.5s;
+    height: auto;
 }
 
 .NavigationBar a {
+    display: block;
     float: left;
     color: #1f1c3f;
     text-align: center;
@@ -34,4 +42,5 @@ body {
     background-color: #6c707d;
     /* color: #0d120e */
 }
+
 
