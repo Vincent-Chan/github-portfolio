@@ -14,6 +14,7 @@ body {
 /* Navigation bar */
 
 .NavigationBar {
+    z-index: 999;
     background-color: #eee;
     overflow: hidden;
     width: 100%;
@@ -45,4 +46,23 @@ body {
     /* color: #0d120e */
 }
 
+/* Picture frame for the personal picture */
+.frame {
+    position:relative;
+    padding:0;
+    margin:0;
+    border:solid 15px #555; 
+    max-width:600px;
+    margin:40px auto;
+    box-shadow:-3px -3px 12px #999;   
+}
 
+.border{
+    position:relative;
+    padding:0;
+    margin:0;
+    border:solid 70px white;
+    box-shadow:-3px -3px 12px #999;
+}  
+
+   
